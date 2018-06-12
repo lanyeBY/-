@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin-top: 30px;
+	list-style: none;
+}
+.nav > li {
+	padding-top: 30px;
+	position: relative;
+	clear: left;
+}
+.nav > li > i{
+	font-size: 30px;
+	float: left;
+}
+.nav > li > a:nth-of-type(1){
+	margin-left: -10px;
+	padding-left: 10px;
+	font-size: 20px;
+	float: left;
+	display: none;
+}
+a{
+	color:inherit;
+	text-decoration: none;
+}
+a:hover{
+	color: gray;
+}
+.nav > li > ul{
+	margin-top: 25px;
+	margin-left: 20px;
+	padding-top: 30px;
+	display: none;
+}
+.nav > li > ul > li{
+	padding-top: 10px;
+}
+.nav > li > i:hover + a,.nav > li > a:hover{
+	display: inline;
+}
+.nav > li > a:hover + ul,.nav > li > ul:hover{
+	display: block;
+}

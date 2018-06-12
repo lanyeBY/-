@@ -1,0 +1,14 @@
+input[type=button]{
+	width: 150px;
+	margin: 30px auto;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+}
+p{
+	width: 360px;
+	margin:0 auto; 
+	text-align: left;
+}

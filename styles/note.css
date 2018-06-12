@@ -1,0 +1,26 @@
+div#note{
+	width: 200px;
+	height: 150px;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: "楷体";
+	color: black;
+	position: fixed;
+	top:50%;
+	right: 0px;
+	display: none;
+	text-align: center;
+}
+#note > p{
+	padding: 10px 5px;
+	background-color: rgba(255,255,255,1);
+	display: none;
+}
+#note > i:hover + p,#note > p:hover{
+	display:block;
+}
+#note > p > span{
+	margin: 0 5px;
+	font-weight: bold;
+}

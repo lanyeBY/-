@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 150px;
+	overflow: hidden;
+}
+div#logo{
+	height: 150px;
+	background-image: url(../images/indexbgi1.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+div > div{
+	background-color: rgba(200,200,200,0.5);
+}
+div > img{
+	margin: 20px;
+}
