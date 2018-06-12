@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加新房客</title>
+<link rel="stylesheet" href="../styles/insertForm.css">
+<script src="../scripts/common.js"></script>
+<script src="../scripts/insertCustomer.js"></script>
+</head>
+
+<body>
+<form>
+  <label for="cid">ID</label>
+		<input type="text" name="cid" id="cid" placeholder="请输入18位的身份证号" pattern="\d{18}" required><br>
+		<label for="cname">姓名</label>
+		<input type="text" name="cname" id="cname" style="width: 180px" required><br>
+		<label for="csex">性别</label>
+		<select name="csex" id="csex">
+			<option value="男" selected>男</option>
+			<option value="女">女</option>
+		</select><br>
+		<label for="cage">年龄</label>
+		<input type="number" name="cage" id="cage" min="18" style="width: 180px" required><br>
+		<label for="personNum">人数</label>
+		<select name="personNum" id="personNum">
+			<option value="1" selected>单人</option>
+			<option value="2">双人</option>
+		</select>
+		<input type="button" id="btn" value="添加">
+</form>
+</body>
+</html>

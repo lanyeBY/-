@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>删除现有人员</title>
+<link rel="stylesheet" href="../styles/showTable.css">
+<link rel="stylesheet" href="../styles/deleteselect.css">
+<style>
+	table{
+		width:500px;
+	}
+</style>
+<script src="../scripts/common.js"></script>
+<script src="../scripts/deleteWorker.js"></script>
+</head>
+
+<body>
+	<table id="result">
+		<tr style="font-size: 18px;font-weight: bold;background-color: burlywood;">
+			<td style="padding: 5px 10px;">ID</td>
+			<td style="padding: 5px 10px;">姓名</td>
+			<td style="padding: 5px 10px;">性别</td>
+			<td style="padding: 5px 10px;">职位</td>
+			<td style="padding: 5px 10px;">年龄</td>
+			<td style="padding: 5px 10px;">选择</td>
+		</tr>
+	</table>
+	<input type="button" id="btn" value="确认删除"><br>
+	<p>注意一次只能删除一个人员。<br>若多选，则仅删除第一个选中的人员。</p>
+</body>
+</html>

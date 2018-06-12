@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加新房间</title>
+<link rel="stylesheet" href="../styles/insertForm.css">
+<script src="../scripts/common.js"></script>
+<script src="../scripts/insertRoom.js"></script>
+</head>
+
+<body>
+<form>
+		<label for="rid">房间号</label>
+		<input type="number" name="rid" id="rid" placeholder="请输入5位的房间号" min="10000" max="99999" required><br>
+		<label for="rname">房间信息</label>
+		<select name="rname" id="rname">
+			<option value="单人房" selected>单人房</option>
+			<option value="双人房">双人房</option>
+		</select><br>
+		<input type="button" id="btn" value="添加">
+	</form>
+</body>
+</html>

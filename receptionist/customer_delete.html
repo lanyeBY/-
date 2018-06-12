@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>房客退房页面</title>
+<link rel="stylesheet" href="../styles/showTable.css">
+<link rel="stylesheet" href="../styles/deleteselect.css">
+<style>
+	table{
+		width:590px;
+	}
+</style>
+<script src="../scripts/common.js"></script>
+<script src="../scripts/deleteCustomer.js"></script>
+</head>
+
+<body>
+	<table id="result">
+		<tr style="font-size: 18px;font-weight: bold;background-color: burlywood;">
+			<td style="padding: 5px 10px;">房间号</td>
+			<td style="padding: 5px 10px;">ID</td>
+			<td style="padding: 5px 10px;">姓名</td>
+			<td style="padding: 5px 10px;">性别</td>
+			<td style="padding: 5px 10px;">年龄</td>
+			<td style="padding: 5px 10px;">选择</td>
+		</tr>
+	</table>
+	<input type="button" id="btn" value="确认退房"><br>
+	<p>注意一次只能进行一间客房退房操作。<br>若多选，则仅完成第一个被选中的客房进行操作。</p>
+</body>
+</html>

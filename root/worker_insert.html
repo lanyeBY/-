@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>添加新房间</title>
+<link rel="stylesheet" href="../styles/insertForm.css">
+<script src="../scripts/common.js"></script>
+<script src="../scripts/insertWorker.js"></script>
+</head>
+
+<body>
+	<form>
+		<label for="wid">ID</label>
+		<input type="number" name="wid" id="wid" placeholder="请输入8位的人员编号" min="20000000" max="99999999" required><br>
+		<label for="wname">姓名</label>
+		<input type="text" name="wname" id="wname" style="width: 180px" required><br>
+		<label for="wsex">性别</label>
+		<select name="wsex" id="wsex">
+			<option value="男" selected>男</option>
+			<option value="女">女</option>
+		</select><br>
+		<label for="wsort">职位</label>
+		<select name="wsort" id="wsort">
+			<option value="前台服务员" selected>前台服务员</option>
+			<option value="客房服务员">客房服务员</option>
+			<option value="采购员">采购员</option>
+		</select><br>
+		<label for="wage">年龄</label>
+		<input type="number" name="wage" id="wage" min="18" max="60" style="width: 180px" required><br>
+		<input type="button" id="btn" value="添加">
+	</form>
+</body>
+</html>
