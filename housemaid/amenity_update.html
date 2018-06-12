@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>物品数量修改</title>
+<link rel="stylesheet" href="../styles/insertForm.css">
+<link rel="stylesheet" href="../styles/myfont.css">
+<script src="../scripts/common.js"></script>
+<script src="../scripts/updateAmenity.js"></script>
+<style>
+	i.bigger{
+		font-size: 32px;
+		margin-left:11px;
+		margin-right: 0;
+	}
+	i:nth-last-of-type(1){
+		font-size: 29px;
+	}
+</style>
+</head>
+
+<body>
+	<form>
+		<label for="aname">物品名称</label>
+		<select name="aname" id="aname" required>
+		</select><br>
+		<label for="anum">数量修改</label>
+		<input type="number" name="anum" id="anum" min="0" required style="width:100px;">
+		<i class="iconfont bigger" id="add">&#xe64a;</i>
+		<i class="iconfont bigger" id="decline">&#xe61e;</i>
+		<input type="button" id="btn" value="确认修改">
+	</form>
+</body>
+</html>
